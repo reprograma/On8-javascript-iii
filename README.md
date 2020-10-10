@@ -702,7 +702,7 @@ MDN: [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Gl
 > Na proxima semana vamos aprender requisições a APIs, então trouxe para vocês alguns materias e artigos para já nos familiarizarmos com o assunto. Divirtam-se!
 
 - [Protocolo HTTP, API e REST de forma resumida](https://medium.com/@luanacm/protocolo-http-api-e-rest-de-forma-resumida-36a5494f3da4)
-- [API]()
+- [O que é API?](https://medium.com/@sampaioaanaluiza/o-que-%C3%A9-api-f507b643f50c)
 - [Usando fetch API](https://medium.com/bruno-pulis/usando-fetch-api-ad0650f13a25)
 - [Promises: Uma abordagem simples](https://medium.com/@dellean.santos/promises-uma-abordagem-simples-b0c8331fa077)
 - [Async e Await: Melhorando funções assíncronas](https://medium.com/@peretta.breno/async-e-await-melhorando-fun%C3%A7%C3%B5es-ass%C3%ADncronas-847bbbdd7a07)
