@@ -79,9 +79,25 @@ const pokemons = [
 
 // Usamos JS moderno
 const pokemonEncontrado = pokemons.find(pokemon => pokemon.nome === "Evee")
-pokemonEncontrado ? console.log(pokemonEncontrado) : console.log("Pokemon ainda não capturado!")
+// pokemonEncontrado ? console.log(pokemonEncontrado) : console.log("Pokemon ainda não capturado!")
 
 // 3. Filtrar os pokemons não capturados e retornar essa lista atualizada.
+
+// console.log(pokemons)
+// console.log(pokemons[0])
+// console.log(pokemons[0].capturado)
+
+let filtrados = []
+for(let i = 0; i < pokemons.length; i++){
+    if(!pokemons[i].capturado){
+        filtrados.push(pokemons[i])
+    }
+}
+console.log(filtrados)
+
+// filter
+const pokemonsFiltrados = pokemons.filter(pokemon => !pokemon.capturado)
+console.log(pokemonsFiltrados)
 
 // 4. Somar o total de ataque da lista de pokemons.
 
