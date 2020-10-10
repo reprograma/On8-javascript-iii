@@ -8,9 +8,9 @@
 6. Adicionar uma nova propriedade ao pokemon chamada `voar` e definir ela como `true` ou `false`.
 7. Adicionar um método chamado `acionar` ao pokemon que recebe uma expressão e retorna uma das strings "ESPECIAL", "CORRER", "ATACAR", "DEFENDER".
 8. Printar todas as propriedades do pokemon no console.
-9. Função e arraw function: Criar uma função que apresente no console cada uma das propriedades do POKEMON_JSON.
-```js
-const POKEMON_JSON = [
+9. Apresente no console cada valor das propriedades dos objetos contidos no JSON
+```json
+const JSON_POKEMONS = [
     {
         "id": 1,
         "name": "Bulbasaur",
@@ -18,15 +18,7 @@ const POKEMON_JSON = [
             "grass",
             "poison"
         ],
-        "stats": {
-            "total": 318,
-            "hp": 45,
-            "attack": 49,
-            "defense": 49,
-            "sp-atk": 65,
-            "sp-def": 65,
-            "speed": 45
-        }
+        "stats": 318
     },
     {
         "id": 2,
@@ -35,15 +27,7 @@ const POKEMON_JSON = [
             "grass",
             "poison"
         ],
-        "stats": {
-            "total": 405,
-            "hp": 60,
-            "attack": 62,
-            "defense": 63,
-            "sp-atk": 80,
-            "sp-def": 80,
-            "speed": 60
-        }
+        "stats": 405
     },
     {
         "id": 3,
@@ -52,15 +36,7 @@ const POKEMON_JSON = [
             "grass",
             "poison"
         ],
-        "stats": {
-            "total": 525,
-            "hp": 80,
-            "attack": 82,
-            "defense": 83,
-            "sp-atk": 100,
-            "sp-def": 100,
-            "speed": 80
-        }
+        "stats": 525
     },
     {
         "id": 4,
@@ -68,33 +44,16 @@ const POKEMON_JSON = [
         "type": [
             "fire"
         ],
-        "stats": {
-            "total": 309,
-            "hp": 39,
-            "attack": 52,
-            "defense": 43,
-            "sp-atk": 60,
-            "sp-def": 50,
-            "speed": 65
-        }
+        "stats": 309
     },
     {
         "id": 5,
         "name": "Charmeleon",
-        "price": 2.50,
         "type": [
             "fire"
         ],
-        "stats": {
-            "total": 405,
-            "hp": 58,
-            "attack": 64,
-            "defense": 58,
-            "sp-atk": 80,
-            "sp-def": 65,
-            "speed": 80
-        }
+        "stats": 405
     }
 ]
 ```
-10. Criar uma função que modifique o POKEMON_JSON que traduza para português as propriedades(keys) de cada pokemons.
+10. Modifique o JSON traduzindo para português as propriedades(keys) de cada pokemon.
