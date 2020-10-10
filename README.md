@@ -49,6 +49,7 @@ MDN: [var](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Sta
 ---
 
 ### String X Template strings
+> Template strings, uma nova forma de criar strings e tornar o seu código um pouco mais legível.
 
 Exemplo de string:
 
@@ -155,6 +156,8 @@ MDN: [switch](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/
 ---
 
 ### Function X Arrow function
+
+> Uma função é um procedimento, uma arrow function possui uma sintaxe mais curta quando comparada a uma função.
 
 Declarando funções:
 
@@ -308,7 +311,9 @@ MDN: [Função callback](https://developer.mozilla.org/pt-BR/docs/Glossario/Call
 
 ### Array
 
-Declaração de array
+> O objeto Array do JavaScript é um objeto global usado na construção de 'arrays'.
+
+Declaração de array:
 
 ```js
 const lista = new Array('pera', 'uva', 'maçã', 'salada mista')
@@ -351,6 +356,8 @@ MDN: [array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/G
 
 #### while
 
+> Um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina.
+
 ```js
 const numeros = [9, 2, 5]
 
@@ -371,6 +378,7 @@ MDN: [while](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/S
 ---
 
 #### for
+
 > A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência(inicialização, condição , expressão final e declaração).
 
 ```js
@@ -402,6 +410,7 @@ MDN: [for](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Sta
 ---
 
 #### forEach
+
 > O método forEach() executa uma dada função para cada elemento de um array.
 
 ```js
@@ -465,6 +474,7 @@ MDN: [forEach](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference
 ---
 
 #### map
+
 > O método `map()` invoca a função `callback` passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
 
 ```js
@@ -525,6 +535,8 @@ MDN: [find](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Gl
 
 #### filter
 
+> O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
+
 ```js
 const numeros = [9, 2, 5]
 
@@ -559,7 +571,7 @@ MDN: [filter](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/
 
 #### reduce
 
-O método `reduce` recebe uma função callback com alguns parâmetros e essa função é executada a cada elemento presente no array. O resultado é a redução do array a um valor só. Normalmente, utilizamos os dois primeiros parâmetros: `acumulador` e `itemAtual`.
+> O método `reduce` recebe uma função callback com alguns parâmetros e essa função é executada a cada elemento presente no array. O resultado é a redução do array a um valor só. Normalmente, utilizamos os dois primeiros parâmetros: `acumulador` e `itemAtual`.
 
 Por exemplo, podemos executar a soma de todos os valores do array utilizando o método `reduce`:
 
@@ -598,6 +610,8 @@ MDN: [reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/
 ---
 
 ### Objetos
+
+> Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções — que são chamadas de propriedades e métodos quando estão dentro de objetos).
 
 Declaração de objetos
 
@@ -645,10 +659,12 @@ console.log(altura) // 40.6
 MDN: [objetos](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico), [atribuição via desestruturação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
 
 ---
+
 ### JSON
+
 > JSON significa **J**ava**S**cript **O**bject **N**otation - Notação de Objetos JavaScript. É uma formatação leve de troca de dados. Para seres humanos, é fácil de ler e escrever. Para máquinas, é fácil de interpretar e gerar. Está baseado em um subconjunto da linguagem de programação JavaScript, a pesar disso, JSON é em formato texto e completamente independente de linguagem, pois usa convenções que são familiares à maioria das linguagens atuais.
 
-Os dados salvos em um arquivo .json e consistem em uma lista com uma sequencia de pares chave / valor. Cujo formato se parece muito com o formato literal do objeto JavaScript.
+Os dados salvos em um arquivo .json consistem em uma lista com uma sequencia de pares de chave / valor. Cujo formato se parece muito com o formato literal do objeto JavaScript.
 
 
 ```json
@@ -699,6 +715,7 @@ MDN: [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Gl
 ---
 
 ## Spoiler alert!!!
+
 > Na proxima semana vamos aprender requisições a APIs, então trouxe para vocês alguns materias e artigos para já nos familiarizarmos com o assunto. Divirtam-se!
 
 - [Protocolo HTTP, API e REST de forma resumida](https://medium.com/@luanacm/protocolo-http-api-e-rest-de-forma-resumida-36a5494f3da4)
@@ -708,6 +725,7 @@ MDN: [JSON](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Gl
 - [Async e Await: Melhorando funções assíncronas](https://medium.com/@peretta.breno/async-e-await-melhorando-fun%C3%A7%C3%B5es-ass%C3%ADncronas-847bbbdd7a07)
 
 ## Aqui meus contatos, vamos nos conectar na redes suas maravilhosas !
+
 - [Linkedin](https://www.linkedin.com/in/alessandrizes/)
 - [Github](https://github.com/alessandrizes)
 - [Twitter](https://twitter.com/alessandrizes)
