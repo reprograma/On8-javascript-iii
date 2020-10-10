@@ -46,13 +46,40 @@ const pokemons = [
     }
 ]
 
-console.log(pokemons)
+// console.log(pokemons)
 
 
+// 2. Encontrar um pokemon na lista pelo seu nome:
 
+// function capturar(pokemon){
+//     // console.log(pokemon)
+//     // console.log(pokemon.nome)
+//     const nome = pokemon.nome
+//     return nome === "Evee"
+// }
 
+// const pokemonEncontrado = pokemons.find(capturar)
 
-// 2. Encontrar um pokemon na lista pelo seu nome
+// if(pokemonEncontrado){
+//     console.log(pokemonEncontrado)
+// } else {
+//     console.log("Pokemon ainda não capturado!")
+// }
+
+// Deixando mais conciso 
+// const pokemonEncontrado = pokemons.find(function(pokemon){
+//     return pokemon.nome === "Evee"
+// })
+
+// if(pokemonEncontrado){
+//     console.log(pokemonEncontrado)
+// } else {
+//     console.log("Pokemon ainda não capturado!")
+// }
+
+// Usamos JS moderno
+const pokemonEncontrado = pokemons.find(pokemon => pokemon.nome === "Evee")
+pokemonEncontrado ? console.log(pokemonEncontrado) : console.log("Pokemon ainda não capturado!")
 
 // 3. Filtrar os pokemons não capturados e retornar essa lista atualizada.
 
