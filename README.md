@@ -1,4 +1,4 @@
-# Reprograma - Semana 10
+# Reprograma - Turma online 8 front-end
 
 Bem vindas a semana 10!
 > Vimos muita coisa até aqui e o objetivo dessa aula é nivelar e alinhar o conhecimento de vocês em JavaScript, vamos revisar mas também vamos aprender coisas novas!
