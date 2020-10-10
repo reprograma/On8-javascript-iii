@@ -36,15 +36,19 @@ const pessoa = {
    git clone [link]
    ```
 
-3. Entrem na `branch` criada com o seu nome
+3. Crie uma `branch` com o seu nome
 
-   Se estiver na master...
+   ```
+   git checkout -b "seu-nome"
+   ```
+
+   Se já criou sua branch e estiver na master...
 
    ```
    git checkout "seu-nome"
    ```
 
-4. Dentro da pasta exercícios para casa, faça uma cópia da pasta exercícios e renomeie com seu nome e sejam felizes resolvendo o exercício :)
+4. Dentro da pasta exercícios para casa, faça uma cópia da pasta exercícios e renomeie com seu nome e sejam felizes resolvendo os exercícios :)
    ```
     ├── exercicios-aula
     ├── exercicios-para-casa
