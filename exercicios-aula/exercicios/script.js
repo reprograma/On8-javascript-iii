@@ -1,4 +1,56 @@
 // 1. Criar uma lista de pokemons com 5 objetos com as propriedades nome, capturado(true ou false) e o ataque(numero de 0 a 100).
+const listaPokemons = []
+
+const pokemon01 = new Object()
+pokemon01.nome = "Vaporeon"
+pokemon01.capturado = true
+pokemon01.ataque = 70
+
+// console.log(pokemon01)
+listaPokemons.push(pokemon01)
+
+const pokemon02 = {
+    nome: "Charmander",
+    capturado: false,
+    ataque: 90
+}
+listaPokemons.push(pokemon02)
+
+// console.log(listaPokemons)
+
+const pokemons = [
+    {
+        nome: "Vaporeon",
+        capturado: true,
+        ataque: 70
+    },
+    {
+        nome: "Charmander",
+        capturado: false,
+        ataque: 90
+    },
+    {
+        nome: "Pikachu",
+        capturado: true,
+        ataque: 100
+    },
+    {
+        nome: "Evee",
+        capturado: false,
+        ataque: 100
+    },
+    {
+        nome: "Togepi",
+        capturado: true,
+        ataque: 30
+    }
+]
+
+console.log(pokemons)
+
+
+
+
 
 // 2. Encontrar um pokemon na lista pelo seu nome
 
