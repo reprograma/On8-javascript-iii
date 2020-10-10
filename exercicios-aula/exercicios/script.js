@@ -93,15 +93,48 @@ for(let i = 0; i < pokemons.length; i++){
         filtrados.push(pokemons[i])
     }
 }
-console.log(filtrados)
+// console.log(filtrados)
 
 // filter
 const pokemonsFiltrados = pokemons.filter(pokemon => !pokemon.capturado)
-console.log(pokemonsFiltrados)
+// console.log(pokemonsFiltrados)
 
 // 4. Somar o total de ataque da lista de pokemons.
+// console.log(pokemons)
+// console.log(pokemons[0].ataque)
+
+// map JS moderno
+const ataques = pokemons.map(pokemon => pokemon.ataque)
+
+// console.log(ataques)
+
+function atacar(pokemon) {
+    return pokemon.ataque
+}
+const listaAtaques = pokemons.map(atacar)
+console.log(listaAtaques)
+
+//reduce JS moderno 
+const somaAtaques = ataques.reduce((acumulador, item) => acumulador + item)
+console.log(somaAtaques)
 
 // 5. Definir um objeto Javascript que descreva um dos pokemons da Pokedex referência: https://www.pokemon.com/br/pokedex/  
+
+const pokemon = {
+    id: 498,
+    nome: "Tepig",
+    descricao: "Ele pode se esquivar habilmente dos ataques de seu inimigo enquanto atira bolas de fogo com seu nariz. Ele torra frutas antes de comê-las.",
+    ["altura-metros"]: 0.5,
+    categoria: "Porco de fogo",
+    ["peso-kg"]: 9.9,
+    habilidade: "Chama",
+    tipos: ["Fogo", "Água", "Terra", "Rocha"],
+    evolucoes: ["Tepig", "Pignite", "Emboar"],
+    estatisticas: 200
+}
+
+console.log(pokemon["altura-metros"])
+
 
 // 6. Adicionar uma nova propriedade ao pokemon chamada `voar` e definir ela como `true` ou `false`.
 
