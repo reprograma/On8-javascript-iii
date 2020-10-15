@@ -116,7 +116,7 @@ const ataques = pokemons.map(pokemon => pokemon.ataque)
 console.log(ataques)
 
 // O resultado do reduce após percorrer a lista é um valor só(soma)
-function somar(acumulador, item){
+function somar(acumulador, item) {
     return acumulador + item
 }
 const soma = ataques.reduce(somar)
@@ -207,7 +207,7 @@ const keys = Object.keys(meuPokemon)
 console.log(keys)
 
 // Exibindo cada uma das propriedades(keys) do objeto meuPokemon com o for()
-for(let i = 0; i < keys.length; i++){
+for (let i = 0; i < keys.length; i++) {
     console.log(keys[i])
 }
 
@@ -215,12 +215,12 @@ for(let i = 0; i < keys.length; i++){
 keys.forEach((key) => console.log(key))
 
 // Exibindo cada propriedade(key) do objeto meuPokemon com o for in
-for(const key in meuPokemon) {
+for (const key in meuPokemon) {
     console.log(key)
 }
 
 // Exibindo cada propriedade(key) e valor(value) do objeto meuPokemon com o for in
-for(const key in meuPokemon) {
+for (const key in meuPokemon) {
     const value = meuPokemon[key]
     console.log(`${key}: ${value}`)
 }
@@ -276,14 +276,14 @@ const JSON_POKEMONS = [
 
 // Exibe o valor(value) das propriedades(keys) do primeiro objeto da lista JSON_POKEMONS
 const primeiroPokemon = JSON_POKEMONS[0]
-for(key in primeiroPokemon) {
+for (key in primeiroPokemon) {
     const value = primeiroPokemon[key]
     console.log(value)
 }
 
 // Com o forEach() exibe os valores das propriedades de todos os objeto da lista JSON_POKEMONS
 function exibirValores(pokemon) {
-    for(key in pokemon) {
+    for (key in pokemon) {
         const value = pokemon[key]
         console.log(value)
     }
@@ -294,7 +294,7 @@ JSON_POKEMONS.forEach(exibirValores)
 
 // Deixando mais conciso com JS moderno
 JSON_POKEMONS.forEach(pokemon => {
-    for(key in pokemon) {
+    for (key in pokemon) {
         const value = pokemon[key]
         console.log(value)
     }
@@ -343,7 +343,7 @@ console.log(lista)
 // Usando o for para traduzir as propriedades do JSON, pois sem ele teriamos que repetir o código a cima várias vezes
 let novaLista = []
 
-for(let i = 0; i < JSON_POKEMONS.length; i++){
+for (let i = 0; i < JSON_POKEMONS.length; i++) {
     const pokemon = JSON_POKEMONS[i]
 
     const novoPokemon = new Object()
@@ -355,7 +355,7 @@ for(let i = 0; i < JSON_POKEMONS.length; i++){
 
     novaLista.push(novoPokemon)
 }
-console.log(novaLista) 
+console.log(novaLista)
 
 // Usando a função map() que além de percorrer toda lista já retonar uma nova lista
 function traduzir(pokemon) {
@@ -364,7 +364,7 @@ function traduzir(pokemon) {
         id: pokemon.id,
         nome: pokemon.name,
         estatisticas: pokemon.stats,
-        tipo:pokemon.type
+        tipo: pokemon.type
     }
 
     return novoPokemon
@@ -374,12 +374,12 @@ const listaTraduzida = JSON_POKEMONS.map(traduzir)
 console.log(listaTraduzida)
 
 // Deixando mais conciso
-const listaNova = JSON_POKEMONS.map(function(pokemon) {
+const listaNova = JSON_POKEMONS.map(function (pokemon) {
     const novoPokemon = {
         id: pokemon.id,
         nome: pokemon.name,
         estatisticas: pokemon.stats,
-        tipo:pokemon.type
+        tipo: pokemon.type
     }
     return novoPokemon
 })
@@ -391,7 +391,7 @@ const listaNovaJSON = JSON_POKEMONS.map(pokemon => {
         id: pokemon.id,
         nome: pokemon.name,
         estatisticas: pokemon.stats,
-        tipo:pokemon.type
+        tipo: pokemon.type
     }
     return novoPokemon
 })

@@ -16,6 +16,7 @@ Bem vindas a semana 10!
 7. [Métodos de iteração](#métodos-de-iteração)
     - [while](#while)
     - [for](#for)
+    - [for...in](#for...in)
     - [forEach](#foreach)
     - [find](#find)
     - [map](#map)
@@ -406,6 +407,43 @@ console.log(numeros) // [18, 4, 10]
 ```
 
 MDN: [for](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
+
+---
+
+#### for...in
+
+> O laço **for...in** interage sobre as propriedades(keys) enumeradas de um objeto, na ordem original de inserção. O laço pode ser executado para cada propriedade distinta do objeto.
+
+Exibindo cada propriedade(key) do objeto:
+
+```js
+const cadeira = {
+    material: "madeira",
+    tipo: "jardim",
+    ano: 1991
+}
+
+for (const key in cadeira) {
+    console.log(key)
+}
+// material
+// tipo
+// ano
+```
+
+Exibindo cada propriedade(key) e valor(value) do objeto:
+
+```js
+for (const key in cadeira) {
+    const value = cadeira[key]
+    console.log(`${key}: ${value}`)
+}
+// material: madeira
+// tipo: jardim
+// ano: 1991
+```
+
+MDN: [for...in](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...in)
 
 ---
 
