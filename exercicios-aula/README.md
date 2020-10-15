@@ -8,7 +8,7 @@
 6. Adicionar uma nova propriedade ao pokemon chamada `voar` e definir ela como `true` ou `false`.
 7. Adicionar um método chamado `acionar` ao pokemon que recebe uma expressão e retorna uma das strings "ESPECIAL", "CORRER", "ATACAR", "DEFENDER".
 8. Printar todas as propriedades do pokemon no console.
-9. Apresente no console cada valor das propriedades dos objetos contidos no JSON
+9. Apresente no console cada valor das propriedades(keys) dos objetos contidos no JSON
 ```json
 const JSON_POKEMONS = [
     {
