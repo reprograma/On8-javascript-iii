@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box
+}
+  
+html {
+    background: #F6F6F6;
+}
+  
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+  
